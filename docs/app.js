@@ -11,21 +11,23 @@ const currentArticles = () => articles.filter((article) => {
 
 function renderCategories() {
   document.querySelector("#category-grid").innerHTML = categories.map((category, index) => `
-    <button class="category-card theme-${index + 1}" type="button" data-category="${category.name}">
+    <button class="category-card" type="button" data-category="${category.name}">
       <span class="category-code">${category.code}</span><span class="category-count">${category.count} 篇</span>
-      <span class="category-visual" aria-hidden="true"><i></i><i></i><i></i></span>
-      <strong>${category.name}</strong><p>${category.description}</p><span class="category-link">查看专题 →</span>
+      <strong>${category.name}</strong><span class="category-description">${category.description}</span><span class="category-arrow">→</span>
     </button>`).join("");
 }
 
 function renderTabs() {
   const tabs = ["全部", ...categories.map((item) => item.name)];
-  document.querySelector("#filter-tabs").innerHTML = tabs.map((name) => `<button type="button" role="tab" aria-selected="${selectedCategory === name}" class="${selectedCategory === name ? "active" : ""}" data-tab="${name}">${name}</button>`).join("");
+  document.querySelector("#filter-tabs").innerHTML = tabs.map((name) => {
+    const label = name === "全部" ? "全部 36" : categories.find((item) => item.name === name)?.shortName;
+    return `<button type="button" role="tab" aria-selected="${selectedCategory === name}" class="filter ${selectedCategory === name ? "active" : ""}" data-tab="${name}">${label}</button>`;
+  }).join("") + `<span class="result-count" id="result-count"></span>`;
 }
 
 function renderArticles() {
   const filtered = currentArticles();
-  document.querySelector("#result-count").textContent = `显示 ${filtered.length} 篇`;
+  document.querySelector("#result-count").textContent = `当前显示 ${filtered.length} 篇`;
   const target = document.querySelector("#article-results");
   if (!filtered.length) { target.innerHTML = '<div class="empty-state"><strong>没有找到相关文章</strong><p>试试更短的关键词，或切换到“全部”。</p></div>'; return; }
   target.innerHTML = `<div class="article-list">${filtered.map((article, index) => {

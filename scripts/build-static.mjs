@@ -32,20 +32,31 @@ const html = `<!doctype html>
   <body>
     <main>
       <header class="topbar">
-        <a class="brand" href="#top" aria-label="返回顶部"><span class="brand-mark">F</span><span>FRANK'S LIBRARY</span></a>
+        <a class="brand" href="#top" aria-label="返回顶部"><span class="brand-mark">F</span><span>经管好文</span></a>
         <div class="topbar-actions"><a class="text-link" href="${imaUrl}" target="_blank" rel="noreferrer">查看原合集</a><button class="icon-button" id="share-button" type="button" aria-label="分享合集">↗</button></div>
       </header>
 
       <section class="hero" id="top">
-        <div class="hero-copy"><p class="eyebrow"><span></span> MANAGEMENT READING LIST</p><h1>值得反复阅读的<br /><em>经管知识合集</em></h1><p class="hero-description">把经营分析、管理认知与 AI 转型中的好文章，整理成一套清晰、可检索、随时可读的知识地图。</p><div class="hero-actions"><button class="primary-button" id="start-reading" type="button">开始阅读 <span>→</span></button><span class="updated-note">36 篇精选文章 · 3 个专题</span></div></div>
-        <div class="hero-cover" aria-label="Frank分享经管知识合集封面"><div class="cover-top"><span>FRANK'S</span><span>COLLECTION · 01</span></div><div class="cover-title"><small>经营 · 管理 · 数字化</small><strong>知行之间</strong><p>在数据里看见经营<br />在实践里验证认知</p></div><div class="cover-lines" aria-hidden="true"><i></i><i></i><i></i></div><div class="cover-bottom"><span>36 ARTICLES</span><span>陈忠胜 整理</span></div></div>
+        <div class="hero-copy">
+          <div class="eyebrow"><span>FRANK’S COLLECTION</span><span class="eyebrow-line"></span></div>
+          <h1>Frank分享<br /><em>经管知识合集</em></h1>
+          <p class="hero-description">把值得反复阅读的经营管理文章，整理成一份清晰、好用、随时可以开始的阅读清单。</p>
+          <div class="curator"><span class="avatar">陈</span><span><strong>陈忠胜</strong><small>创建并持续整理</small></span></div>
+          <div class="hero-actions"><button class="primary-button" id="start-reading" type="button">开始阅读 <span>→</span></button><a class="secondary-button" href="#articles">浏览全部 36 篇</a></div>
+        </div>
+        <div class="hero-art" aria-label="经营知识合集封面装饰">
+          <div class="cover-card cover-back"><span>MANAGEMENT</span></div>
+          <div class="cover-card cover-middle"><span>BUSINESS</span></div>
+          <div class="cover-card cover-front"><div class="cover-number">36</div><div class="cover-title">经营<br />知识<br />合集</div><div class="cover-footer"><span>VOL. 01</span><span>2026</span></div></div>
+          <div class="art-stamp">3 个主题<br />36 篇内容</div>
+        </div>
       </section>
 
-      <section class="stats-strip" aria-label="合集概览"><div><strong>36</strong><span>篇精选文章</span></div><div><strong>03</strong><span>个知识专题</span></div><div><strong>∞</strong><span>持续思考与实践</span></div><p>从数据出发<br />回到经营现场</p></section>
+      <section class="stats" aria-label="合集概览"><div><strong>36</strong><span>篇精选内容</span></div><div><strong>03</strong><span>个知识主题</span></div><div><strong>2026.08</strong><span>本次整理</span></div><p>从数据走向决策<br />从问题走向机制</p></section>
 
-      <section class="category-section" id="categories"><div class="section-heading"><div><span class="section-number">01</span><p class="eyebrow">KNOWLEDGE MAP</p><h2>三个专题，一张经营地图</h2></div><p>从数字工具、经营分析到管理认知，<br />循序建立完整的经营思维。</p></div><div class="category-grid" id="category-grid"></div></section>
+      <section class="category-section" id="categories" aria-labelledby="category-title"><div class="section-heading"><div><span class="section-kicker">COLLECTION INDEX</span><h2 id="category-title">按主题阅读</h2></div><p>三条路径，构成一套从工具到分析、再到管理的认知地图。</p></div><div class="category-grid" id="category-grid"></div></section>
 
-      <section class="articles-section" id="articles"><div class="section-heading article-heading"><div><span class="section-number">02</span><p class="eyebrow">ALL ARTICLES</p><h2>精选文章</h2></div><p>每一篇都通往公众号原文。<br />筛选、搜索，然后开始阅读。</p></div><div class="article-toolbar"><div class="filter-tabs" id="filter-tabs" role="tablist" aria-label="按专题筛选"></div><label class="search-box"><span aria-hidden="true"></span><input id="search-input" type="search" placeholder="搜索文章标题" aria-label="搜索文章标题" /></label></div><p class="result-count" id="result-count"></p><div id="article-results"></div></section>
+      <section class="article-section" id="articles" aria-labelledby="article-title"><div class="article-toolbar"><div><span class="section-kicker">ALL ARTICLES</span><h2 id="article-title">合集文章</h2></div><label class="search-box"><span>搜索</span><input id="search-input" type="search" placeholder="输入文章关键词" aria-label="搜索文章" /></label></div><div class="filter-row" id="filter-tabs" role="tablist" aria-label="文章分类"></div><div id="article-results"></div></section>
 
       <section class="closing-section"><span class="closing-label">READ · THINK · PRACTICE</span><h2>收藏只是开始，<br />真正的价值发生在实践里。</h2><div class="closing-actions"><button class="primary-button light" id="closing-start" type="button">从第一篇开始 <span>→</span></button><a href="${imaUrl}" target="_blank" rel="noreferrer">在 IMA 中打开原合集 ↗</a></div></section>
       <footer><span>Frank分享经管知识合集</span><span>由陈忠胜整理 · 36 篇内容</span></footer>
@@ -69,21 +80,23 @@ const currentArticles = () => articles.filter((article) => {
 
 function renderCategories() {
   document.querySelector("#category-grid").innerHTML = categories.map((category, index) => \`
-    <button class="category-card theme-\${index + 1}" type="button" data-category="\${category.name}">
+    <button class="category-card" type="button" data-category="\${category.name}">
       <span class="category-code">\${category.code}</span><span class="category-count">\${category.count} 篇</span>
-      <span class="category-visual" aria-hidden="true"><i></i><i></i><i></i></span>
-      <strong>\${category.name}</strong><p>\${category.description}</p><span class="category-link">查看专题 →</span>
+      <strong>\${category.name}</strong><span class="category-description">\${category.description}</span><span class="category-arrow">→</span>
     </button>\`).join("");
 }
 
 function renderTabs() {
   const tabs = ["全部", ...categories.map((item) => item.name)];
-  document.querySelector("#filter-tabs").innerHTML = tabs.map((name) => \`<button type="button" role="tab" aria-selected="\${selectedCategory === name}" class="\${selectedCategory === name ? "active" : ""}" data-tab="\${name}">\${name}</button>\`).join("");
+  document.querySelector("#filter-tabs").innerHTML = tabs.map((name) => {
+    const label = name === "全部" ? "全部 36" : categories.find((item) => item.name === name)?.shortName;
+    return \`<button type="button" role="tab" aria-selected="\${selectedCategory === name}" class="filter \${selectedCategory === name ? "active" : ""}" data-tab="\${name}">\${label}</button>\`;
+  }).join("") + \`<span class="result-count" id="result-count"></span>\`;
 }
 
 function renderArticles() {
   const filtered = currentArticles();
-  document.querySelector("#result-count").textContent = \`显示 \${filtered.length} 篇\`;
+  document.querySelector("#result-count").textContent = \`当前显示 \${filtered.length} 篇\`;
   const target = document.querySelector("#article-results");
   if (!filtered.length) { target.innerHTML = '<div class="empty-state"><strong>没有找到相关文章</strong><p>试试更短的关键词，或切换到“全部”。</p></div>'; return; }
   target.innerHTML = \`<div class="article-list">\${filtered.map((article, index) => {
