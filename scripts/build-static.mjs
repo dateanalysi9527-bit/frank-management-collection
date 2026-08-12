@@ -21,7 +21,10 @@ const html = `<!doctype html>
     <meta property="og:title" content="Frank分享经管知识合集" />
     <meta property="og:description" content="36 篇精选 · 经营分析 · 数字化与 AI · 管理认知" />
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="og.png" />
+    <meta property="og:url" content="https://dateanalysi9527-bit.github.io/frank-management-collection/" />
+    <meta property="og:image" content="https://dateanalysi9527-bit.github.io/frank-management-collection/og.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="canonical" href="https://dateanalysi9527-bit.github.io/frank-management-collection/" />
     <title>Frank分享经管知识合集</title>
     <link rel="icon" href="favicon.svg" />
     <link rel="stylesheet" href="styles.css" />
