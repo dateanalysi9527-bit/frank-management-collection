@@ -9,6 +9,7 @@
     "dev": "node scripts/build-static.mjs && node scripts/serve-static.mjs",
     "build": "node scripts/build-static.mjs",
     "build:pages": "node scripts/build-static.mjs",
+    "covers:sync": "node scripts/fetch-article-covers.mjs",
     "start": "node scripts/serve-static.mjs",
     "test": "node scripts/build-static.mjs && node --check docs/app.js"
   },

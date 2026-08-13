@@ -1,0 +1,222 @@
+{
+  "generatedAt": "2026-08-13T00:15:06.128Z",
+  "covers": [
+    {
+      "index": 0,
+      "title": "Workbuddy108个通用指令合集，新手必看！",
+      "image": "article-covers/01.webp",
+      "source": "https://mmbiz.qpic.cn/mmbiz_jpg/H0nz31kTxAnbpMHmhRRVvRDhaHXUpM9ESIrGmjXRpAgz8A2aKY3dbeAIlSwNJ1y0ueibGFn2gyKuJmXs8XUq236giaDy1KzHr4hLWcQDvuYYk/0?wx_fmt=jpeg"
+    },
+    {
+      "index": 1,
+      "title": "如何用 Workbuddy 生成各类数据图表",
+      "image": "article-covers/02.webp",
+      "source": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/NqUXf77NqibWSh917OQ4nf9iacib8miatKtITy5CtHQLU2m4NfYQQa99Nt4fNib2qQuICibs1eQZVyvuORV2xgm0UBK2SBGCfK19MqLHI6ymyXlnc/0?wx_fmt=jpeg"
+    },
+    {
+      "index": 2,
+      "title": "Workbuddy108个通用指令合集，新手必看！（更新版）",
+      "image": "article-covers/03.webp",
+      "source": "https://mmbiz.qpic.cn/mmbiz_jpg/H0nz31kTxAnbpMHmhRRVvRDhaHXUpM9ESIrGmjXRpAgz8A2aKY3dbeAIlSwNJ1y0ueibGFn2gyKuJmXs8XUq236giaDy1KzHr4hLWcQDvuYYk/0?wx_fmt=jpeg"
+    },
+    {
+      "index": 3,
+      "title": "汪峰把公司1100人砍到400人：引入 AI 后，组织发生了什么？",
+      "image": "article-covers/04.webp",
+      "source": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/diaZ700KfOoXxQEOvpbkGNppGPGyE307Nw9ZBLNGpdLtKZhlbvxoVtHOUS2cl7mHHDzuaQX0yicJYQfYdNiahNd5HlZJMqu2ub0s6mCXCpqxL4/0?wx_fmt=jpeg"
+    },
+    {
+      "index": 4,
+      "title": "制造业数据：10分钟自动生成12张专业看板",
+      "image": "article-covers/05.webp",
+      "source": "https://mmbiz.qpic.cn/mmbiz_jpg/FfQHBsgfw6xPPrj16d0D6J7E78UYOrGyoLoDibOnAMIiazHGxI6H9D1oRIgQZW2xm1vmZnGhmYicwBrOiaib8bBhZgPW7hJWBuoIqFbN5tHelSD4/0?wx_fmt=jpeg"
+    },
+    {
+      "index": 5,
+      "title": "经营分析，不能脱离经营现场",
+      "image": "article-covers/06.webp",
+      "source": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/peCT444icl9t3ekK1d8uun78mIvfLW02nN0TvQ0EL6SpeH9rfORoGvpwdhQOxkJEicXYeajIR0EdAsneZhpAp2hCnZk53NJGiaLTX7bU0CbLCE/0?wx_fmt=jpeg"
+    },
+    {
+      "index": 6,
+      "title": "吃透这15个财务分析模型，你的分析能力直接碾压同行！",
+      "image": "article-covers/07.webp",
+      "source": "https://mmbiz.qpic.cn/mmbiz_jpg/AYbHGia3GVC0KFEhkG7r1q5CKcUiaG4eb28Cah2g9iaY8iaJvaHLI54cvib9U49KtwAxF4Nn2iakNF9UYphVqmpcdK6XPgFqfedd3hMiayUibycqfXs/0?wx_fmt=jpeg"
+    },
+    {
+      "index": 7,
+      "title": "财务 BP 必掌握的6大核心模块",
+      "image": "article-covers/08.webp",
+      "source": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/WX0TfGJXjgO2871A2YC6xvUaZSAIFCSB17Ch8tNJNIH6AU6iaOAuGGia4hs2f7YqT1K1CBwmicTHXRM8SHN6sMwBDMu9iaXVBuBTKKFMt3wBHGE/0?wx_fmt=jpeg"
+    },
+    {
+      "index": 8,
+      "title": "经营分析，常用的15个工具",
+      "image": "article-covers/09.webp",
+      "source": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/nibiac7hrOWg6OueovJCictP059F7HIicwMfiahhdeUc5CBr59awMbcWs4QV5dtooBvfHHicR1ficZAZ2UKajGgo6yI8rGxrWibo24ictDmbgfMd8zDY/0?wx_fmt=jpeg"
+    },
+    {
+      "index": 9,
+      "title": "如何从财务分析走向真正的经营分析",
+      "image": "article-covers/10.webp",
+      "source": "https://mmbiz.qpic.cn/mmbiz_jpg/xjaicaO8fzAAPD1Z6AGC1uOftwxdDJiaHBgmfZx3KYaFaVTRTsuqtcPMBXekPUlylGcqjyUA2z5rU2I5RXPav0sJj2Anlg3qnXSHxGr6jaQf8/0?wx_fmt=jpeg"
+    },
+    {
+      "index": 10,
+      "title": "经营分析｜真正要盯的10大要点",
+      "image": "article-covers/11.webp",
+      "source": "https://mmbiz.qpic.cn/mmbiz_jpg/pPtLy8R0ib6kr7LqfiaCB7YiadVX8zEfbxlfDDvjd96XOmV3juUmdV5mZCaYziabeQsnhbzzoYBf3uVVPs4yNyMicglfOe94RrgSxliaq0KFZzyfQ/0?wx_fmt=jpeg"
+    },
+    {
+      "index": 11,
+      "title": "经营分析6大要素",
+      "image": "article-covers/12.webp",
+      "source": "https://mmbiz.qpic.cn/mmbiz_jpg/rcCgK1wvOYMge00duMQ0j71OeckWUfeh6d8lMA0Wkibbl3wlUhRYLA5RuGAx3dMjbFibMeoqziczI2nhxZm4bw4A4XicjErJcwNqMYrW2K5o8S8/0?wx_fmt=jpeg"
+    },
+    {
+      "index": 12,
+      "title": "AI 重构财务：企业财务转型全景图",
+      "image": "article-covers/13.webp",
+      "source": "https://mmbiz.qpic.cn/mmbiz_jpg/yGgkcILQvdic1Kf6Nj3KL7Vnsd7gJZRKpdJGazficCXoZetfK81JnDeXqlx8pzU21DaSGRYLJricLQOvvNm32NrlzzrYuRFekl1IGw87XZic9YU/0?wx_fmt=jpeg"
+    },
+    {
+      "index": 13,
+      "title": "经营分析全流程 SOP",
+      "image": "article-covers/14.webp",
+      "source": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/zwj5FkNMba1XI9rtiaoSlrl7WbsMlsTCpGyTEIO6odFzolb9rUcO36eYOHON05X6nAGSmibkyH3ogGXJNxjJCRZ4t2JoLwouhGrIBwGv2Yia9A/0?wx_fmt=jpeg"
+    },
+    {
+      "index": 14,
+      "title": "2026年7月总经理经营分析 PPT",
+      "image": "article-covers/15.webp",
+      "source": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/zYjgyxwMA6KRxUyKq0TdHvOfxr5FXlJn9eQWgYTQz4Blcc7Eia4bEIJduTKicyjGe6qgpg9mr5Z5lCtYXjyJeauRsrX39RQxYiaPjGAl3jhcGk/0?wx_fmt=jpeg"
+    },
+    {
+      "index": 15,
+      "title": "财务分析到底该怎么做？真正厉害的财务，都在用这9个模型找问题",
+      "image": "article-covers/16.webp",
+      "source": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/zwj5FkNMba1bia6apmW6k9z7W1Cxl7O2CNX54Eyy2hkCGkBp5RrkdwicUM9vkAJvMxBO9qhIze8YfOuaks5cKTcps1Z22VpTib7qGkSeju2VUM/0?wx_fmt=jpeg"
+    },
+    {
+      "index": 16,
+      "title": "经营分析，真正关注的就这10大要点（更新版）",
+      "image": "article-covers/17.webp",
+      "source": "https://mmbiz.qpic.cn/mmbiz_jpg/yGgkcILQvdibOQHON8gkGSF2p29atXk0Lv5aJZQCLwGPkepok2sh2WQicZb2PNEGdossS2AD4HZ9mktNLF9sictB3hCdsAv40YjK5x2iajBAs3Q/0?wx_fmt=jpeg"
+    },
+    {
+      "index": 17,
+      "title": "一张图看懂！经营分析到底分析什么",
+      "image": "article-covers/18.webp",
+      "source": "https://mmbiz.qpic.cn/mmbiz_jpg/pPtLy8R0ib6m2qvibibiafLIiblDBbVhuhDwCKuVe8I5YA83s9kRkwzCJZlBXnfU9icb1LereARKaKpd7AyMGhwzFkJmF8sxSVWzN5cGcU5CUktiaQ/0?wx_fmt=jpeg"
+    },
+    {
+      "index": 18,
+      "title": "制造业数据分析的12个核心维度",
+      "image": "article-covers/19.webp",
+      "source": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/SMBRdKzfPmgprwpIv8EuvZEd0GZrV1e4icnR4wNBFb9A613GqB6zib4JFzlVIiaV7wCHMmcun9uYwOWVREibdfKvc9LRKUcYorrVIBtSRVRZImQ/0?wx_fmt=jpeg"
+    },
+    {
+      "index": 19,
+      "title": "这9个分析模型，可以搞定80%的数据分析工作",
+      "image": "article-covers/20.webp",
+      "source": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/9YA6ta8M1057TLibFr5YyRsUhAzsyFh1PRCf3x6L5VeMjJmF758qicdmgDjX0egHpFZkDyHwSkuELwQ3ibicQR8qzCiaIeibBtozo04BaCOEa1VuU/0?wx_fmt=jpeg"
+    },
+    {
+      "index": 20,
+      "title": "经营分析会必看8个指标：收入、毛利、费用、利润、现金流、库存、人效、回款",
+      "image": "article-covers/21.webp",
+      "source": "https://mmbiz.qpic.cn/mmbiz_jpg/zwj5FkNMba3jMc58DZWB80PRTODGvxH54jmmXQdAWIe2YbdNAuEwia1kzsRwSzicVXXao9BgeCecuxBzVx9UTPfW7BC70mUMzIT5Dn9wj7wjk/0?wx_fmt=jpeg"
+    },
+    {
+      "index": 21,
+      "title": "经营分析会别诉苦：下半年盯住6类指标",
+      "image": "article-covers/22.webp",
+      "source": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/SjCqFLI9FovgB97KEkAPYyhkNdN5r6yibCcKzwYveavrjdBdB2elKa0LiaW0Wo5fYxMzJ7h6gSiaKcCL4WiaEG6fF60U5bQkFuJqN0BUTicKGLsA/0?wx_fmt=jpeg"
+    },
+    {
+      "index": 22,
+      "title": "经营分析，真正关注的就这10大要点",
+      "image": "article-covers/23.webp",
+      "source": "https://mmbiz.qpic.cn/mmbiz_jpg/yGgkcILQvdibOQHON8gkGSF2p29atXk0Lv5aJZQCLwGPkepok2sh2WQicZb2PNEGdossS2AD4HZ9mktNLF9sictB3hCdsAv40YjK5x2iajBAs3Q/0?wx_fmt=jpeg"
+    },
+    {
+      "index": 23,
+      "title": "经营分析6大模块：从数据到决策",
+      "image": "article-covers/24.webp",
+      "source": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/nibiac7hrOWg40MlkLyPOxHBEImJiaiaCu4BbRRILDaica9Hrl3Dia7K6l2Pl4YKsEk3ES4zWrcSsHLWdUO5Ilmh2SB80bCmMMPSffErORzMc1vR4/0?wx_fmt=jpeg"
+    },
+    {
+      "index": 24,
+      "title": "经营分析 SOP 怎么做？从数据整理到经营改善全流程详解",
+      "image": "article-covers/25.webp",
+      "source": "https://mmbiz.qpic.cn/mmbiz_jpg/zwj5FkNMba3jDtia9KTIFAvjj2TfPjgwspb7EicwB6TE4fI2FpfTGPYxLfGRKibEN5FTp2nkv4baFhTRnP4ia754jlCJa8BiaFlkErv4QF20vmHM/0?wx_fmt=jpeg"
+    },
+    {
+      "index": 25,
+      "title": "终于有人讲清楚了——数据分析的十大方法论",
+      "image": "article-covers/26.webp",
+      "source": "https://mmbiz.qpic.cn/mmbiz_jpg/jzynMry59jWsfM3kTicfGAtibXTFyWHTlpKK24YIs2LibHJjDEibiauewVzssHZhJBBuhy5GFWZz9Jw3PV7oSvyAEvd8jxSxh9iaN69R3JKSKribS4/0?wx_fmt=jpeg"
+    },
+    {
+      "index": 26,
+      "title": "经营分析会怎么开才有效？流程、指标与行动闭环一次讲清",
+      "image": "article-covers/27.webp",
+      "source": "https://mmbiz.qpic.cn/mmbiz_jpg/zwj5FkNMba0WbEwbxiawFSJIB8kA6YGbj6naRd8etVDWGDteMhMKv0fBCGeicb4pAJYDEKmgpzVdvibTEwv4icTKyiaAt3Of5Ld6ARichsLOWERCE/0?wx_fmt=jpeg"
+    },
+    {
+      "index": 27,
+      "title": "从财务到增长，拆解经营分析9个必懂模型",
+      "image": "article-covers/28.webp",
+      "source": "https://mmbiz.qpic.cn/mmbiz_jpg/S9MJnk0LoFIQBibiajhj3DjsftooteZsN5ZACUrIF48tNFJyajFuEJxDIx6JFcAiaFCMEQFQia1ATWgGjD6tsfpM2yG77KmFA2wc7LUXbplNh4w/0?wx_fmt=jpeg"
+    },
+    {
+      "index": 28,
+      "title": "靠谱的管理",
+      "image": "article-covers/29.webp",
+      "source": "https://mmbiz.qpic.cn/mmbiz_jpg/BTRvZicGkbIm46vDt0F4JTH8iapYibwH8Yy5icticQRicFOhMl0vxTUiaia6wegeEomDsChzbftrI6AcgBJEhia8D0uMsJpiaoPDriaRctNXCPn1bHrXII/0?wx_fmt=jpeg"
+    },
+    {
+      "index": 29,
+      "title": "从战略到结果，绩效管理体系落地全流程",
+      "image": "article-covers/30.webp",
+      "source": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/K7059eicQvGZtNUFoK0DR2FwuptjP4zm2lnbXhWyFPtUQAyicH7NTf9znULjv9CTGFt8rGx0w4ia2Zqia22LQEP22WDNPGIqrVyNgdp2ytxvyw8/0?wx_fmt=jpeg"
+    },
+    {
+      "index": 30,
+      "title": "谁说搭建绩效管理体系很难？",
+      "image": "article-covers/31.webp",
+      "source": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/bBy2DwcuDXJqMgTwicPFuA83TXygHzAP9OiaQR1XKmCPtROujzANcWvXM0PCicuCO98sIjYLSqic4Rf51gJicoyMWGicbhsczsISGuRj1QNgXKnlM/0?wx_fmt=jpeg"
+    },
+    {
+      "index": 31,
+      "title": "降本增效的核心逻辑是什么？",
+      "image": "article-covers/32.webp",
+      "source": "https://mmbiz.qpic.cn/mmbiz_jpg/TQOKbAvkic1WlAYA5j4RKJNKmz0ZsXLibaNO0TDN0kENh5lIXLuJ2B31jhcmNhZqBEELzgL7aksAISoWzVpBaRAPic2CmcicOuMDMQmJC8UDicLM/0?wx_fmt=jpeg"
+    },
+    {
+      "index": 32,
+      "title": "经营、运营、管理有什么不同",
+      "image": "article-covers/33.webp",
+      "source": "https://mmbiz.qpic.cn/mmbiz_jpg/HPaxg5WjNQVboJxwiaTPEdvYia8TRL0JeJ4dibxEG64uEg3dLIXcfAZGgVrKibsaJYkk8w6ibBPzPW6KodGm8nq473PlNpFpIfIoISQARXdnaibzI/0?wx_fmt=jpeg"
+    },
+    {
+      "index": 33,
+      "title": "经营管理的分水岭：从解决问题到设计机制",
+      "image": "article-covers/34.webp",
+      "source": "https://mmbiz.qpic.cn/mmbiz_jpg/SjCqFLI9FosabwqZ4Tp8wSxXS4CpT0ugk5IujIvAZcC6k4DXDY2oeDT3YzAzXjtLwJrEXMTaRy3eia3NaXJChMt4E1CGiaL2EdCI90rDorCzo/0?wx_fmt=jpeg"
+    },
+    {
+      "index": 34,
+      "title": "一张图讲透经营与管理本质的区别",
+      "image": "article-covers/35.webp",
+      "source": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/wU5eJMoDAKQn84UbGlcSK9lSHTFQq8ibzNgBH7JZQnXiadewWwx7hlO8n1SP2sib6KbhK3ICtS4eSwn74wjhXjicmnVFkB6QpydE5KM1rK9yU20/0?wx_fmt=jpeg"
+    },
+    {
+      "index": 35,
+      "title": "企业发展和盈利，真正靠什么？",
+      "image": "article-covers/36.webp",
+      "source": "https://mmbiz.qpic.cn/mmbiz_jpg/SjCqFLI9FovRM5y0tZB6CmsuV7vPKiaZuA8iaEZwatiaOCoHWraXs5OvY9q7lSWibqicdaXbEN6V5ialoJtTvJrmCnL78pPtKdw2NqVjeaQ1oKeGQ/0?wx_fmt=jpeg"
+    }
+  ],
+  "failures": []
+}

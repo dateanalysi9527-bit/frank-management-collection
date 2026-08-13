@@ -32,7 +32,7 @@ function renderArticles() {
   if (!filtered.length) { target.innerHTML = '<div class="empty-state"><strong>没有找到相关文章</strong><p>试试更短的关键词，或切换到“全部”。</p></div>'; return; }
   target.innerHTML = `<div class="article-list">${filtered.map((article, index) => {
     const themeIndex = categoryIndex(article.category);
-    return `<a class="article-row" href="${article.url}" target="_blank" rel="noreferrer"><span class="article-index">${String(index + 1).padStart(2, "0")}</span><span class="article-main"><span class="article-category">${article.category}</span><strong>${article.title}</strong><span class="article-meta">公众号文章　·　收录于 IMA 知识库</span></span><span class="article-cover theme-${themeIndex + 1}" aria-hidden="true"><span>${categories[themeIndex]?.shortName ?? "专题"}</span><i></i></span><span class="article-open">↗</span></a>`; }).join("")}</div>`;
+    return `<a class="article-row" href="${article.url}" target="_blank" rel="noreferrer"><span class="article-index">${String(index + 1).padStart(2, "0")}</span><span class="article-main"><span class="article-category">${article.category}</span><strong>${article.title}</strong><span class="article-meta">公众号文章　·　收录于 IMA 知识库</span></span><span class="article-cover theme-${themeIndex + 1}"><img src="article-covers/${String(articles.indexOf(article) + 1).padStart(2, "0")}.webp" alt="${article.title}封面" width="480" height="320" loading="lazy" decoding="async" /><span class="cover-fallback">${categories[themeIndex]?.shortName ?? "专题"}</span></span><span class="article-open">↗</span></a>`; }).join("")}</div>`;
 }
 
 function selectCategory(name) {

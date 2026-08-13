@@ -138,9 +138,10 @@ button { color: inherit; }
 .article-category { margin-bottom: 8px; color: var(--green); font-size: 11px; font-weight: 700; letter-spacing: .08em; }
 .article-main strong { font-size: clamp(18px, 2vw, 23px); line-height: 1.45; letter-spacing: -.015em; }
 .article-meta { margin-top: 12px; color: var(--muted); font-size: 12px; }
-.article-cover { position: relative; width: 132px; height: 88px; overflow: hidden; padding: 12px; display: flex; align-items: end; color: white; font-size: 11px; font-weight: 700; letter-spacing: .08em; }
-.article-cover i { position: absolute; width: 74px; height: 74px; right: -18px; top: -18px; border: 1px solid rgba(255,255,255,.44); border-radius: 50%; }
-.article-cover i::after { content: ""; position: absolute; inset: 12px; border: 1px solid rgba(255,255,255,.3); border-radius: 50%; }
+.article-cover { position: relative; width: 132px; aspect-ratio: 3 / 2; overflow: hidden; display: block; color: white; font-size: 11px; font-weight: 700; letter-spacing: .08em; background: var(--green); }
+.article-cover img { position: relative; z-index: 1; width: 100%; height: 100%; display: block; object-fit: cover; transition: transform .25s ease; }
+.article-row:hover .article-cover img { transform: scale(1.04); }
+.cover-fallback { position: absolute; inset: 0; display: flex; align-items: end; padding: 12px; }
 .theme-1 { background: #496b62; }
 .theme-2 { background: #a56542; }
 .theme-3 { background: #2d4038; }
@@ -201,9 +202,10 @@ footer { width: min(1200px, calc(100% - 48px)); min-height: 100px; margin: 0 aut
   .filter-row { flex-wrap: nowrap; overflow-x: auto; padding-bottom: 10px; scrollbar-width: none; }
   .filter { flex: 0 0 auto; }
   .result-count { display: none; }
-  .article-row { min-height: 148px; grid-template-columns: 34px 1fr 28px; gap: 10px; }
+  .article-row { min-height: 148px; grid-template-columns: 28px minmax(0, 1fr) 88px; gap: 10px; }
   .article-row:hover { padding-left: 0; }
-  .article-cover { display: none; }
+  .article-cover { display: block; width: 88px; }
+  .article-open { display: none; }
   .article-index { padding-top: 26px; }
   .article-main strong { font-size: 17px; }
   .article-category { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
